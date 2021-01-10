@@ -1,0 +1,248 @@
+#Cabeçalho ul{
+    background-color: #fcd5e3;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Cabeçalho h1{
+    color: #854784;
+    font-size: 40px;
+    text-align: center;
+}
+
+#Cabeçalho{
+    margin-top: -10px;
+    margin-right: -8px;
+    margin-left: -8px;
+    background-color: #fcf5f8;
+    text-align: center;
+
+}
+
+#link_cabecalho a{
+    color: #854784;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#link_cabecalho a:hover{
+    padding: 10px 10px 10px 10px;
+    background-color: #854784;
+    color: white;
+}
+
+#Cabeçalho table{
+    margin: auto;   
+}
+
+#contato{
+    margin-top : 5px;
+    display: flex;
+    flex-direction: row;
+    color: darkslategrey;
+    align-items: center;
+    margin-left: 30%; 
+    
+}
+
+#divBusca{
+    background-color:white;
+    border:solid 3px #e76d98;
+    width:300px;
+    height:32px;  
+}
+
+#btnBusca img{
+    width: 25px;
+    height: 24px;
+
+}
+
+#txtBusca{
+    border:solid 3px #e76d98;
+    float:left;
+    margin-right: -10px;
+    background-color:white;
+    padding-left:5px; 
+    font-size:20px;
+    font-family: Handlee;
+    border-color:#e76d98;
+    height:32px;
+    width:191px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+::-webkit-input-placeholder {
+    color: #e76d98;
+}
+
+#btnBusca{
+    border:none;
+    float:right;
+    height:40px;
+    width:70px;
+    font-weight:bold;
+    background:#e76d98;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#imgTel{
+    height:30px;
+    width:30px;
+}
+
+#imgUser{
+    width: 40px;
+}
+
+#imgCarrinho{
+    width: 80px;
+}
+
+.edit{
+    cursor: pointer;
+}
+
+li{
+    display: inline;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+
+table {
+    
+    margin: 10%; 
+
+    
+}
+
+.Imagens {
+    
+    width: 35%;
+    height: 40%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    
+    
+}
+
+h1 {
+    
+    font-size: 125%;
+    text-align: center;
+
+    
+}
+
+h2 {
+    
+    font-size: 120%;
+    text-align: center;
+    margin-left: 5%;
+    
+    
+}
+
+h3 {
+    
+    font-size: 200%;
+    
+}
+
+#Rodapé{
+    position: absolute;
+    display: flex; 
+    width: 100%;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: #fcd5e3;
+    text-align: center;
+    margin-bottom: -200px;
+
+
+}
+
+#Rodapé a{
+    color: #854784;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.link_rodape{
+    width: 300px;
+    margin-top: -10px;
+    margin-right: 50px;
+    text-align: left;
+    display: flex;
+    flex-direction: column-reverse;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+
+
+#Rodapé_Contato{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: baseline;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #854784;
+}
+
+
+#Rodapé_Contato img{
+    width: 40px;
+    height: 40px;
+   
+}
+
+#Rodapé_Contato_Redes{
+    align-self: flex-start;
+}
+
+#Rodapé_Pagamento{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #854784;
+    align-items: baseline;
+}
+
+
+#Rodapé_Pagamento img{
+    width: 200px;
+    height: 70px;
+    
+}
+
+#Rodapé_Pagamento h1{
+    text-align: left;   
+}
+
+#Rodapé_NomeLoja{
+    width: 300px;
+    position: static;
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+}
+
+body {
+    
+    background-color: #fff0f5;
+}
