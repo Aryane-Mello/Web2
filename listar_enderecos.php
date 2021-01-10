@@ -32,16 +32,18 @@
                 </tr>
             </table>
             <ul id="link_cabecalho"> 
-                <li><a href="index.html">Página Inicial</a></li>
-                <li><a href="formulario_cadastro.php">Cadastro de Usuário</a></li>
+                <li><a href="index.php">Página Inicial</a></li>
+                <li><a href="login_usuario.php">Cadastro de Usuário</a></li>
                 <li><a href="Sobre_FashionWall.php">Sobre A Loja</a></li>
                 <li><a href="Carrinho.php">Carrinho</a></li>
                 <li><a href="formulario_produto.php">Cadastro de Produto</a></li>
                 <li><a href="Black_Friday.php">Black friday</a></li>
             </ul>    
         </div>
-        
-    <h1> Listar Endereços Cadastrados </h1>
+
+    <h1 id=teste> Listar Endereços Cadastrados </h1>
+
+
     <a href="formulario_end_usuario.php"> Cadastrar Endereço </a>
     <?php
             require_once "conexao.php";
@@ -51,12 +53,12 @@
 
             while ($linha = mysqli_fetch_assoc($result)){
         ?>    
-                 
+        
                 <h3> CPF: <?=$linha['cpf']?></h3>
                 <a href = "detalhar_endereco.php?cpf=<?=$linha['cpf']?>"> Detalhar Endereço Cadastrado </a><br>
                 <a href = "formulario_atualizar_endereco.php?cpf=<?=$linha['cpf']?>"> Alterar Endereço </a><br>
                 <a href = "deletar_endereco.php?cpf=<?=$linha['cpf']?>"> Excluir Atual Endereço </a>
-            
+
         <?php        
             }  
         ?>
@@ -66,7 +68,7 @@
                 <ol>
                     <li><a class="link_rodape" href="index.php">Página Inicial</a></li>   
                     <li><a class="link_rodape" href="Sobre_FashionWall.php">Sobre a Loja</a></li>    
-                    <li><a class="link_rodape" href="formulario_cadastro.php">Cadastro do Usuário</a></li> 
+                    <li><a class="link_rodape" href="login_usuario.php">Cadastro do Usuário</a></li> 
                     <li><a class="link_rodape" href="formulario_produto.php">Cadastro do Produto</a></li>  
                     <li><a class="link_rodape" href="Carrinho.php">Carrinho de Compras</a></li>  
                     <li><a class="link_rodape" href="Administrador.php">Conta Administradora</a></li>

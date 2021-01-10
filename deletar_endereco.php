@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deletar Endereço</title>
-    <link rel="stylesheet" href="Sobre_FashionWall.css">
+    <link rel="stylesheet" href="CSS/Sobre_FashionWall.css">
 </head>
 <body>
 <div id="Cabeçalho">
@@ -33,7 +33,7 @@
             </table>
             <ul id="link_cabecalho"> 
                 <li><a href="index.html">Página Inicial</a></li>
-                <li><a href="formulario_cadastro.php">Cadastro de Usuário</a></li>
+                <li><a href="login_usuario.php">Cadastro de Usuário</a></li>
                 <li><a href="Carrinho.php">Carrinho</a></li>
                 <li><a href="Administrador.php">Administrador</a></li>
                 <li><a href="formulario_produto.php">Cadastro de Produto</a></li>
@@ -65,7 +65,7 @@
                 <ol>
                     <li><a class="link_rodape" href="index.php">Página Inicial</a></li>   
                     <li><a class="link_rodape" href="Sobre_FashionWall.php">Sobre a Loja</a></li>    
-                    <li><a class="link_rodape" href="formulario_cadastro.php">Cadastro do Usuário</a></li> 
+                    <li><a class="link_rodape" href="login_usuario.php">Cadastro do Usuário</a></li> 
                     <li><a class="link_rodape" href="formulario_produto.php">Cadastro do Produto</a></li>  
                     <li><a class="link_rodape" href="Carrinho.php">Carrinho de Compras</a></li>  
                     <li><a class="link_rodape" href="Administrador.php">Conta Administradora</a></li>

@@ -33,7 +33,7 @@
             </table>
             <ul id="link_cabecalho"> 
                 <li><a href="index.php">Página Inicial</a></li>
-                <li><a href="formulario_cadastro.php">Cadastro de Usuário</a></li>
+                <li><a href="login_usuario.php">Cadastro de Usuário</a></li>
                 <li><a href="Sobre_FashionWall.php">Sobre A Loja</a></li>
                 <li><a href="Carrinho.php">Carrinho</a></li>
                 <li><a href="formulario_produto.php">Cadastro de Produto</a></li>
@@ -60,10 +60,10 @@
    
     if ($result){
         require "cabecalho_endereco.php";
-        echo "Parabéns! Cadastro inserido com sucesso!";
+        echo "Parabéns! Cadastro de Endereço inserido com sucesso!";
     }
     else{
-        echo "Erro ao cadastrar usuário!";
+        echo "Erro ao cadastrar Endereço!";
     }
 
 ?>
@@ -73,7 +73,7 @@
                 <ol>
                     <li><a class="link_rodape" href="index.php">Página Inicial</a></li>   
                     <li><a class="link_rodape" href="Sobre_FashionWall.php">Sobre a Loja</a></li>    
-                    <li><a class="link_rodape" href="formulario_cadastro.php">Cadastro do Usuário</a></li> 
+                    <li><a class="link_rodape" href="login_usuario.php">Cadastro do Usuário</a></li> 
                     <li><a class="link_rodape" href="formulario_produto.php">Cadastro do Produto</a></li>  
                     <li><a class="link_rodape" href="Carrinho.php">Carrinho de Compras</a></li>  
                     <li><a class="link_rodape" href="Administrador.php">Conta Administradora</a></li>
