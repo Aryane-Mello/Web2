@@ -35,9 +35,10 @@
             </table>
             <ul id="link_cabecalho"> 
                 <li><a href="index.php">Página Inicial</a></li>
-                <li><a href="login_usuario.php">Login de Usuário</a></li>
+                <li><a href="login_usuario.php">Cadastro de Usuário</a></li>
                 <li><a href="Carrinho.php">Carrinho</a></li>
                 <li><a href="Administrador.php">Administrador</a></li>
+                <li><a href="formulario_produto.php">Cadastro de Produto</a></li>
                 <li><a href="Black_Friday.php">Black friday</a></li>
             </ul>    
         </div>
@@ -73,7 +74,8 @@
                 <ol>
                     <li><a class="link_rodape" href="index.php">Página Inicial</a></li>   
                     <li><a class="link_rodape" href="Sobre_FashionWall.php">Sobre a Loja</a></li>    
-                    <li><a class="link_rodape" href="login_usuario.php">Login de Usuário</a></li> 
+                    <li><a class="link_rodape" href="login_usuario.php">Cadastro do Usuário</a></li> 
+                    <li><a class="link_rodape" href="formulario_produto.php">Cadastro do Produto</a></li>  
                     <li><a class="link_rodape" href="Carrinho.php">Carrinho de Compras</a></li>  
                     <li><a class="link_rodape" href="Administrador.php">Conta Administradora</a></li>
                 </ol>
